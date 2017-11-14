@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-11740-1fqzo3n.2bdqoj38fr\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-11740-1fqzo3n.2bdqoj38fr\\package.tgz",
+        "spec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-11740-1fqzo3n.2bdqoj38fr\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Rui\\AppData\\Local\\Temp\\apm-install-dir-1171013-11740-5by62a.3eckfvquxr"
+    ]
+  ],
+  "_from": "..\\d-1171013-11740-1fqzo3n.2bdqoj38fr\\package.tgz",
+  "_id": "language-cuda@0.1.0",
+  "_inCache": true,
+  "_location": "/language-cuda",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-11740-1fqzo3n.2bdqoj38fr\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-11740-1fqzo3n.2bdqoj38fr\\package.tgz",
+    "spec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-11740-1fqzo3n.2bdqoj38fr\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-1171013-11740-1fqzo3n.2bdqoj38fr\\package.tgz",
+  "_shasum": "bbee3c5c963fb6815ed2bd52b1f86ec602200da3",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-11740-1fqzo3n.2bdqoj38fr\\package.tgz",
+  "_where": "C:\\Users\\Rui\\AppData\\Local\\Temp\\apm-install-dir-1171013-11740-5by62a.3eckfvquxr",
+  "bugs": {
+    "url": "https://github.com/thomasjo/language-cuda/issues"
+  },
+  "dependencies": {},
+  "description": "CUDA C/C++ language support",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/thomasjo/language-cuda#readme",
+  "keywords": [
+    "cuda",
+    "c++",
+    "c",
+    "gpu",
+    "kernel",
+    "runtime",
+    "language",
+    "grammar"
+  ],
+  "license": "MIT",
+  "name": "language-cuda",
+  "optionalDependencies": {},
+  "readme": "# CUDA C/C++ language support for Atom\n\nThis package adds CUDA C/C++ language support to Atom.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasjo/language-cuda.git"
+  },
+  "version": "0.1.0"
+}

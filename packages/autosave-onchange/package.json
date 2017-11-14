@@ -1,0 +1,123 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-11794-11132-ihnw71.jw6ogvi\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-11794-11132-ihnw71.jw6ogvi\\package.tgz",
+        "spec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-11794-11132-ihnw71.jw6ogvi\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Rui\\AppData\\Local\\Temp\\apm-install-dir-11794-11132-b58vmk.53w4su4n29"
+    ]
+  ],
+  "_from": "..\\d-11794-11132-ihnw71.jw6ogvi\\package.tgz",
+  "_id": "autosave-onchange@1.5.1",
+  "_inCache": true,
+  "_location": "/autosave-onchange",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-11794-11132-ihnw71.jw6ogvi\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-11794-11132-ihnw71.jw6ogvi\\package.tgz",
+    "spec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-11794-11132-ihnw71.jw6ogvi\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-11794-11132-ihnw71.jw6ogvi\\package.tgz",
+  "_shasum": "97c7dd723c7cbf7d0bedef604c4cc11e572eea54",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-11794-11132-ihnw71.jw6ogvi\\package.tgz",
+  "_where": "C:\\Users\\Rui\\AppData\\Local\\Temp\\apm-install-dir-11794-11132-b58vmk.53w4su4n29",
+  "bugs": {
+    "url": "https://github.com/ChexWarrior/atom-autosave-onchange/issues"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8"
+  },
+  "description": "This plugin automatically saves a file after a change is made to it.",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-error": "^0.1.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-run": "^1.7.1",
+    "gulp-spawn": "^0.3.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/ChexWarrior/atom-autosave-onchange#readme",
+  "keywords": [
+    "autosave",
+    "auto-save",
+    "save",
+    "delay",
+    "debounce",
+    "auto",
+    "automatic",
+    "refresh",
+    "onDichange",
+    "onDidStopChanging",
+    "unicorn",
+    "isthatcentered"
+  ],
+  "license": "MIT",
+  "main": "./lib/autosave-onchange",
+  "name": "autosave-onchange",
+  "optionalDependencies": {},
+  "readme": "# Autosave Onchange\n\n> You'll be surprised at how much hitting ctrl+s every ten seconds was annoying when you won't have to do it anymore :). -**isthatcentered**\n\n## Description\nThis is a plugin for the [Atom editor](https://atom.io/) which automatically saves the current file after changes are made.\n\n## Features\n* Configurable auto-save delay\n* Easily disable and enable auto-save functionality\n* Autosave automatically disables when the commit screen loads for Git Plus (Git Plus automatically commits on save so using both packages can be annoying). This is configurable within the package settings.\n\n## Special Thanks\n* Thanks to [isthatcentered](https://github.com/isthatcentered/) for starting the package!\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChexWarrior/atom-autosave-onchange.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "gulp",
+    "test": "karma start"
+  },
+  "version": "1.5.1",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "lodash.debounce",
+        "version": "4.0.8",
+        "path": "node_modules\\lodash.debounce\\index.js"
+      }
+    ],
+    "extensions": {
+      ".js": [
+        "gulpfile.js",
+        "lib\\autosave-onchange.js",
+        "lib\\package.js",
+        "node_modules\\lodash.debounce\\index.js"
+      ],
+      ".json": [
+        "node_modules\\lodash.debounce\\package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "",
+          "keymaps",
+          "lib",
+          "path\\to\\output",
+          "spec"
+        ],
+        "dependencies": {
+          "lodash.debounce": "^4.0.8"
+        }
+      }
+    ]
+  }
+}

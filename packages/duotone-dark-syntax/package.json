@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-1152-1ndmd2p.9759n97ldi\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-1152-1ndmd2p.9759n97ldi\\package.tgz",
+        "spec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-1152-1ndmd2p.9759n97ldi\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\Rui\\AppData\\Local\\Temp\\apm-install-dir-1171013-1152-4da6tp.j38fr"
+    ]
+  ],
+  "_from": "..\\d-1171013-1152-1ndmd2p.9759n97ldi\\package.tgz",
+  "_id": "duotone-dark-syntax@2.1.0",
+  "_inCache": true,
+  "_location": "/duotone-dark-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-1152-1ndmd2p.9759n97ldi\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-1152-1ndmd2p.9759n97ldi\\package.tgz",
+    "spec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-1152-1ndmd2p.9759n97ldi\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-1171013-1152-1ndmd2p.9759n97ldi\\package.tgz",
+  "_shasum": "6693e23acc1ad5fbd7518a90d6603c97e03437c5",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\Rui\\AppData\\Local\\Temp\\d-1171013-1152-1ndmd2p.9759n97ldi\\package.tgz",
+  "_where": "C:\\Users\\Rui\\AppData\\Local\\Temp\\apm-install-dir-1171013-1152-4da6tp.j38fr",
+  "bugs": {
+    "url": "https://github.com/simurai/duotone-dark-syntax/issues"
+  },
+  "configSchema": {
+    "color": {
+      "title": "Custom Colors",
+      "type": "object",
+      "properties": {
+        "uno": {
+          "title": "Uno",
+          "description": "Customize the main color",
+          "order": 1,
+          "type": "color",
+          "default": "#a59ccc"
+        },
+        "duo": {
+          "title": "Duo",
+          "description": "Customize the accent color",
+          "order": 2,
+          "type": "color",
+          "default": "#ffe685"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "chroma-js": "1.1.1",
+    "duotone-syntax": "^2.1.0"
+  },
+  "description": "A dark DuoTone syntax theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/simurai/duotone-dark-syntax#readme",
+  "keywords": [
+    "dark",
+    "purple",
+    "gold",
+    "duotone",
+    "syntax"
+  ],
+  "license": "MIT",
+  "main": "lib/duotone",
+  "name": "duotone-dark-syntax",
+  "optionalDependencies": {},
+  "readme": "# DuoTone dark\n\nA double-hue syntax theme for Atom.\n\n<img alt=\"DuoTone dark\" sizes=\"272px\"\n  src=\"https://cloud.githubusercontent.com/assets/378023/6996305/4d567190-dbbb-11e4-8ae8-4be016a85c68.png\"\n  srcset=\"https://cloud.githubusercontent.com/assets/378023/6995981/3d455d76-dba6-11e4-9740-23202591201b.png 544w\">\n\nDuoTone themes use only 2 hues (8 shades in total). It __tones down__ less important parts (like punctuation and brackets) and highlights only the __important__ ones. This leads to a more calm color scheme, but still lets you find the stuff you're looking for.\n\n<img alt=\"CSS in DuoTone dark\" sizes=\"780px\"\n  src=\"https://cloud.githubusercontent.com/assets/378023/6996868/871b6440-dbdd-11e4-834e-b28363026d0c.png\"\n  srcset=\"https://cloud.githubusercontent.com/assets/378023/6996081/4dc96804-dbab-11e4-95f9-cc06a67452cb.png 1560w\">\n\n<img alt=\"HTML in DuoTone dark\" sizes=\"780px\"\n  src=\"https://cloud.githubusercontent.com/assets/378023/6996874/aee76b40-dbdd-11e4-95e1-a40258a50c26.png\"\n  srcset=\"https://cloud.githubusercontent.com/assets/378023/6996875/b2160e02-dbdd-11e4-913e-7dc006437d94.png 1560w\">\n\n\n## Language support\n\nDuoTone themes are optimized for many languages:\n\n> C, Clojure, CoffeeScript, C#, CSS, GF Markdown, Go, Haskell, HTML, Java, JavaScript, JSON, Less, Perl, PHP, Python, Ruby, SASS, SCSS, Stylus, XML, YAML...\n\nSee the list of [all languages](https://github.com/simurai/duotone-syntax/tree/master/styles/languages).\n\n## Install\n\nSearch for `duotone-dark-syntax` in Atom's settings. Or install via CL:\n\n```\napm install duotone-dark-syntax\n```\n\n\n## Settings\n\nYou can change the color scheme by going to `Settings > Themes > duotone-dark-syntax Theme` (or the cog icon next to the theme picker). There you can customize the main and accent color.\n\n![Custom Colors](https://cloud.githubusercontent.com/assets/378023/20046592/ccb836fa-a4ee-11e6-8441-816c8e0709c7.png)\n\n\n## Variations\n\nHere a list of all [DuoTone themes](https://atom.io/themes/search?utf8=%E2%9C%93&q=keyword:duotone). Or at least the ones that have the `duotone` keyword added. :grin:\n\n\n### Issues and contributing\n\nIf you would like to create a new __Issue__ or __PR__, please do so in:\n\n- __this repo__ if it's about __color__ changes, like in `colors.less` or `syntax-variables.less`.\n- __[DuoTone master template](https://github.com/simurai/duotone-syntax)__ if it's about __everything else__, like in improving language support. Changes will trickle down into this theme too.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simurai/duotone-dark-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "2.1.0"
+}

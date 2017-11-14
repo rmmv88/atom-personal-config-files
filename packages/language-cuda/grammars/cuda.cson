@@ -1,0 +1,42 @@
+'name': 'CUDA'
+'scopeName': 'source.cuda'
+'fileTypes': [
+  'cu'
+  'cuh'
+]
+'patterns': [
+  { 'include': '#memory_management_functions'}
+  { 'include': 'source.cpp' }
+]
+'repository':
+  'memory_management_functions':
+    'patterns': [
+      {
+        'name': 'support.function.runtime.memory-management.cuda'
+        'match': '(?x)\\bcuda(ArrayGetInfo|GetMipmappedArrayLevel|GetSymbolAddress|GetSymbolSize|MemGetInfo)\\b'
+      }
+      {
+        'name': 'support.function.runtime.memory-management.cuda'
+        'match': '(?x)\\bcudaFree(Array|Host|MipmappedArray)?\\b'
+      }
+      {
+        'name': 'support.function.runtime.memory-management.cuda'
+        'match': '(?x)\\bcudaHost(Alloc|GetDevicePointer|GetFlags|Register|Unregister)\\b'
+      }
+      {
+        'name': 'support.function.runtime.memory-management.cuda'
+        'match': '(?x)\\bcudaMalloc(3D|3DArray|Array|Host|Managed|MipmappedArray|Pitch)?\\b'
+      }
+      {
+        'name': 'support.function.runtime.memory-management.cuda'
+        'match': '(?x)\\bcudaMemcpy(2D|2DArrayToArray|2DAsync|2DFromArray|2DFromArrayAsync|2DToArray|2DToArrayAsync|3D|3DAsync|3DPeer|3DPeerAsync|ArrayToArray|Async|FromArray|FromArrayAsync|FromSymbol|FromSymbolAsync|Peer|PeerAsync|ToArray|ToArrayAsync|ToSymbol|ToSymbolAsync)?\\b'
+      }
+      {
+        'name': 'support.function.runtime.memory-management.cuda'
+        'match': '(?x)\\bcudaMemset(2D|2DAsync|3D|3DAsync|Async)?\\b'
+      }
+      {
+        'name': 'support.function.runtime.memory-management.cuda'
+        'match': '(?x)\\bmake_cuda(Extent|PitchedPtr|Pos)\\b'
+      }
+    ]

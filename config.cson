@@ -1,0 +1,51 @@
+"*":
+  "atom-beautify":
+    c:
+      default_beautifier: "clang-format"
+    general:
+      _analyticsUserId: "67338022-9cae-493a-9195-8e47fa983ad8"
+  "atom-material-ui":
+    tabs:
+      tintedTabBar: true
+    treeView: {}
+    ui: {}
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "monokai-dark"
+    ]
+  "duotone-dark-syntax":
+    color:
+      duo: "#ffffff"
+      uno: "#ff0000"
+  editor:
+    fontFamily: "consolas"
+    fontSize: 11
+    invisibles: {}
+    preferredLineLength: 100
+    showIndentGuide: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "02d81340-2c51-4975-ba0d-3951f2e34ac5"
+  "file-icons": {}
+  "linter-gcc":
+    execPath: "C:\\Users\\Rui\\Documents\\Compilers\\MinGW64\\bin\\gcc.exe"
+    gccLintOnTheFly: true
+    gccLintOnTheFlyInterval: 100
+  "linter-ui-default": {}
+  "one-dark-ui":
+    fontSize: 10
+  "seti-syntax": {}
+  "seti-ui":
+    compactView: true
+    fileIcons: false
+  welcome:
+    showOnStartup: false
+".c.source":
+  editor:
+    preferredLineLength: 100
+    showIndentGuide: true
+    showInvisibles: false
+    softWrap: false
+    softWrapAtPreferredLineLength: false
