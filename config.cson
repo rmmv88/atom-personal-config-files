@@ -33,7 +33,8 @@
     execPath: "C:\\Users\\Rui\\Documents\\Compilers\\MinGW64\\bin\\gcc.exe"
     gccLintOnTheFly: true
     gccLintOnTheFlyInterval: 100
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "one-dark-ui":
     fontSize: 10
   "seti-syntax": {}
